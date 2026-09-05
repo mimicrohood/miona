@@ -1,0 +1,32 @@
+{
+  "name": "MIONA #4022",
+  "description": "An evolving pixel life in the MIONA collective on Robinhood Chain.",
+  "image": "ipfs://REPLACE_IMAGE_CID/4022.svg",
+  "external_url": "https://miona.example/life/4022",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "WHITE ROOM"
+    },
+    {
+      "trait_type": "Body",
+      "value": "FORTRESS"
+    },
+    {
+      "trait_type": "Antenna",
+      "value": "STACK"
+    },
+    {
+      "trait_type": "Appendages",
+      "value": "PULSE RINGS"
+    },
+    {
+      "trait_type": "Role",
+      "value": "CRITIC"
+    },
+    {
+      "trait_type": "Generation",
+      "value": "Genesis"
+    }
+  ]
+}

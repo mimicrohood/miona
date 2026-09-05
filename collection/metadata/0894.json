@@ -1,0 +1,32 @@
+{
+  "name": "MIONA #0894",
+  "description": "An evolving pixel life in the MIONA collective on Robinhood Chain.",
+  "image": "ipfs://REPLACE_IMAGE_CID/0894.svg",
+  "external_url": "https://miona.example/life/894",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "WHITE ROOM"
+    },
+    {
+      "trait_type": "Body",
+      "value": "SEED"
+    },
+    {
+      "trait_type": "Antenna",
+      "value": "DISH"
+    },
+    {
+      "trait_type": "Appendages",
+      "value": "EXTENDED"
+    },
+    {
+      "trait_type": "Role",
+      "value": "CRITIC"
+    },
+    {
+      "trait_type": "Generation",
+      "value": "Genesis"
+    }
+  ]
+}

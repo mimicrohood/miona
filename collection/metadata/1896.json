@@ -1,0 +1,32 @@
+{
+  "name": "MIONA #1896",
+  "description": "An evolving pixel life in the MIONA collective on Robinhood Chain.",
+  "image": "ipfs://REPLACE_IMAGE_CID/1896.svg",
+  "external_url": "https://miona.example/life/1896",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "GENESIS BLACK"
+    },
+    {
+      "trait_type": "Body",
+      "value": "ARCHIVE"
+    },
+    {
+      "trait_type": "Antenna",
+      "value": "DISH"
+    },
+    {
+      "trait_type": "Appendages",
+      "value": "SATELLITES"
+    },
+    {
+      "trait_type": "Role",
+      "value": "OBSERVER"
+    },
+    {
+      "trait_type": "Generation",
+      "value": "Genesis"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "MIONA #3647",
+  "description": "An evolving pixel life in the MIONA collective on Robinhood Chain.",
+  "image": "ipfs://REPLACE_IMAGE_CID/3647.svg",
+  "external_url": "https://miona.example/life/3647",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "ORBIT MAP"
+    },
+    {
+      "trait_type": "Body",
+      "value": "SEED"
+    },
+    {
+      "trait_type": "Antenna",
+      "value": "NONE"
+    },
+    {
+      "trait_type": "Appendages",
+      "value": "PULSE RINGS"
+    },
+    {
+      "trait_type": "Role",
+      "value": "BUILDER"
+    },
+    {
+      "trait_type": "Generation",
+      "value": "Genesis"
+    }
+  ]
+}
