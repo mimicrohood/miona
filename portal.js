@@ -31,7 +31,7 @@ setClock();
 setInterval(setClock,1000);
 
 
-$('.accordion-trigger').forEach(trigger=>{
+$$('.accordion-trigger').forEach(trigger=>{
   trigger.addEventListener('click',()=>{
     const panel=document.getElementById(trigger.getAttribute('aria-controls'));
     const expanded=trigger.getAttribute('aria-expanded')==='true';
@@ -112,6 +112,7 @@ if(fieldGrid){
 
   render();
 }
+
 
 
 

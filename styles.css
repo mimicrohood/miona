@@ -47,3 +47,6 @@
 .wallet-missing b{font:10px var(--mono);color:var(--acid)}
 .wallet-missing span{font:12px/1.6 var(--sans);color:var(--dim)}
 .wallet-note{margin:16px;color:var(--dim);font:7px/1.5 var(--mono)}
+.actions a{display:inline-flex;align-items:center;justify-content:center;gap:10px;text-decoration:none}
+.actions a.primary{background:var(--acid);color:var(--black)}
+.actions a.secondary{color:var(--white)}
