@@ -47,6 +47,10 @@
 .wallet-missing b{font:10px var(--mono);color:var(--acid)}
 .wallet-missing span{font:12px/1.6 var(--sans);color:var(--dim)}
 .wallet-note{margin:16px;color:var(--dim);font:7px/1.5 var(--mono)}
-.actions a{display:inline-flex;align-items:center;justify-content:center;gap:10px;text-decoration:none}
+.actions a{display:inline-flex;align-items:center;justify-content:space-between;width:180px;height:48px;padding:0 18px;border:1px solid var(--acid);font:500 9px var(--mono);letter-spacing:.05em;text-decoration:none;transition:.15s}
 .actions a.primary{background:var(--acid);color:var(--black)}
-.actions a.secondary{color:var(--white)}
+.actions a.primary:hover{background:var(--white);border-color:var(--white)}
+.actions a.secondary{background:rgba(7,8,6,.82);border-color:#4a5043;color:var(--white)}
+.actions a.secondary:hover{border-color:var(--acid);color:var(--acid)}
+@media(max-width:780px){.actions a{width:100%}}
+
