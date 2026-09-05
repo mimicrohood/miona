@@ -54,3 +54,10 @@
 .actions a.secondary:hover{border-color:var(--acid);color:var(--acid)}
 @media(max-width:780px){.actions a{width:100%}}
 
+
+/* Official token contract */
+.ca-status b{display:flex;align-items:center;gap:5px;min-width:0}
+.ca-status a{color:var(--acid);font:7px var(--mono);text-decoration:none;white-space:nowrap}
+.ca-status a:hover{text-decoration:underline}
+.ca-status button{height:22px;border:1px solid var(--line);background:none;color:var(--dim);padding:0 5px;font:6px var(--mono)}
+.ca-status button:hover{border-color:var(--acid);color:var(--acid)}

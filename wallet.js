@@ -182,6 +182,12 @@
   }
 
   document.addEventListener('click', event => {
+    const copyButton = event.target.closest('[data-copy-ca]');
+    if (copyButton) {
+      event.preventDefault();
+      navigator.clipboard?.writeText(copyButton.dataset.copyCa).then(() => toast('TOKEN CA COPIED')).catch(() => toast(copyButton.dataset.copyCa));
+      return;
+    }
     const button = event.target.closest('[data-connect]');
     if (!button) return;
     event.preventDefault();
@@ -192,4 +198,5 @@
   setTimeout(restore, 250);
   window.MionaWallet = { connect, targetChain: TARGET, get address() { return activeAddress; }, get provider() { return activeProvider; } };
 })();
+
 
